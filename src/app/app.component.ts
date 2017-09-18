@@ -6,9 +6,13 @@ import { Component } from '@angular/core';
     <p>
       app Works!
     </p>
+    <a-ar></a-ar>
   `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'a';
+  constructor() {
+    console.log('ar is here');
+  }
 }
