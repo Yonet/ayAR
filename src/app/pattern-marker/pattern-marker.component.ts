@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ArService } from '../ar.service';
 
 @Component({
   selector: 'a-pattern-marker',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PatternMarkerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: ArService) { }
 
   ngOnInit() {
+    this.service.initAR();
   }
 
 }
