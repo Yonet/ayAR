@@ -22,13 +22,9 @@
         "styles.scss"
       ],
       "scripts": [
-        "../node_modules/ar.js/three.js/examples/vendor/three.js/build/three.min.js",
-        "../node_modules/ar.js/three.js/examples/vendor/three.js/examples/js/libs/stats.min.js",
-        "../node_modules/ar.js/three.js/src/threex/threex-artoolkitcontext.js",
-        "../node_modules/ar.js/three.js/src/threex/threex-artoolkitsource.js",
-        "../node_modules/ar.js/three.js/src/threex/threex-arbasecontrols.js",
-        "../node_modules/ar.js/three.js/src/threex/threex-armarkerhelper.js",
-        "../node_modules/ar.js/three.js/src/threex/threex-armarkercontrols.js",
+        "../node_modules/jsartoolkit/build/artoolkit.min.js",
+        "../node_modules/jsartoolkit/examples/js/third_party/three.js/three.min.js",
+        "../node_modules/jsartoolkit/js/artoolkit.three.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
