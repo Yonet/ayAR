@@ -6,13 +6,11 @@ import { Component } from '@angular/core';
     <p>
       app Works!
     </p>
-    <a-ar></a-ar>
+    <a-pattern-marker></a-pattern-marker>
   `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'a';
   constructor() {
-    console.log('ar is here');
   }
 }
