@@ -1,7 +1,7 @@
-.portrait canvas {
+.portrait {
 	transform-origin: 0 0;
 	transform: rotate(-90deg) translateX(-100%);
 }
-.desktop canvas {
+.desktop {
  	transform: scale(-1, 1);
 }

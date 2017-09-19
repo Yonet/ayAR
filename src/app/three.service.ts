@@ -4,6 +4,12 @@ import { Injectable } from '@angular/core';
 export class ThreeService {
   public renderer = new THREE.WebGLRenderer({ antialias: true });
 
+  // scene
+  // camera
+  // lighting
+  // object
+  //  shape define
+  //  texture
 
   constructor() { }
 
