@@ -28,7 +28,7 @@ export class PatternMarkerComponent implements OnInit {
     return this.canvasRef.nativeElement;
   }
 
-  @ViewChild('canvas')
+  @ViewChild('canvas', {static: false})
   private canvasRef: ElementRef;
 
   @Input()
