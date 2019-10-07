@@ -33,7 +33,7 @@ export class PatternMarkerComponent implements AfterViewInit {
 
   @Input()
   set model(model: string) {
-    this.options.model = this.three.createModel(model);
+    this.options.model = this.service.createModel(model);
   }
 
   @HostListener('click') onClickHandler(e) {

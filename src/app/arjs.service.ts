@@ -29,7 +29,7 @@ export class ArjsService {
       renderer.render( scene, camera );
     })
 
-        // run the rendering loop
+    // run the rendering loop
     var lastTimeMsec= null
     requestAnimationFrame(function animate(nowMsec){
       // keep looping
@@ -82,7 +82,7 @@ export class ArjsService {
     })
 
     arToolkitSource.init(function onReady(){
-       arToolkitSource.onResizeElement()
+      arToolkitSource.onResizeElement()
       arToolkitSource.copyElementSizeTo(renderer.domElement)
       if( arToolkitContext.arController !== null ){
         arToolkitSource.copyElementSizeTo(arToolkitContext.arController.canvas)
@@ -116,8 +116,8 @@ export class ArjsService {
   initCameraControls () {
     var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
       type : 'pattern',
-      patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.hiro',
-      // patternUrl : THREEx.ArToolkitContext.baseURL + '../data/data/patt.kanji',
+      // Define the pattern to recognize
+      patternUrl : 'assets/Data/patt.hiro',
       // as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
       changeMatrixMode: 'cameraTransformMatrix'
     })
@@ -147,7 +147,40 @@ export class ArjsService {
   }
 
   sayHi() {
-    
+
+  }
+
+  createModel(type) {
+    let model: any;
+    if (type === 'sphere') {
+      model = this.createSphere();
+    } else if (type === 'torus') {
+      model = this.createTorus();
+    } else {
+      model = this.createBox();
+    }
+    return model;
+  }
+
+   createSphere() {
+    let sphere = new THREE.Mesh(
+      new THREE.SphereGeometry(0.5, 8, 8),
+      new THREE.MeshNormalMaterial()
+    );
+    sphere.material.shading = THREE.FlatShading;
+    sphere.position.z = 0.5;
+
+    return sphere;
+  }
+
+  createBox() {
+    let box = new THREE.Mesh(
+      new THREE.BoxGeometry(1, 1, 1),
+      new THREE.MeshNormalMaterial()
+    );
+    box.material.shading = THREE.FlatShading;
+    box.position.z = 0.5;
+    return box;
   }
 
 }
