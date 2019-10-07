@@ -2,7 +2,7 @@
 
 http://bit.ly/ng-ar-demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+Point your camera to the [Hiro image](./assets/HIRO.jpg).
 
 ## Development server
 
