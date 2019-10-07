@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PatternMarkerComponent } from './pattern-marker/pattern-marker.component';
 
+import { ArjsService } from './arjs.service';
 import { ArService } from './ar.service';
 import { ThreeService } from './three.service';
 import { ArDirective } from './ar.directive';
@@ -19,7 +20,7 @@ import { ArDirective } from './ar.directive';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ArService, ThreeService],
+  providers: [ArService, ThreeService, ArjsService],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

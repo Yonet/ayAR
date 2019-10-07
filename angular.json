@@ -26,7 +26,11 @@
             "scripts": [
               "node_modules/jsartoolkit/build/artoolkit.min.js",
               "node_modules/jsartoolkit/examples/js/third_party/three.js/three.min.js",
-              "node_modules/jsartoolkit/js/artoolkit.three.js"
+              "node_modules/jsartoolkit/js/artoolkit.three.js",
+              "js/threex/threex-artoolkitsource.js",
+              "js/threex/threex-artoolkitcontext.js",
+              "js/threex/threex-arbasecontrols.js",
+              "js/threex/threex-armarkercontrols.js"
             ]
           },
           "configurations": {
