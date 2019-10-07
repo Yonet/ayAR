@@ -2,7 +2,15 @@
 
 http://bit.ly/ng-ar-demo
 
-Point your camera to the [Hiro image](./assets/HIRO.jpg).
+## SetUp to view
+
+* Make sure your browser is WebXR capable. You can check which browsers support WebXR and WebVR at [CanIUse.com](https://caniuse.com/#search=webxr).
+
+* You can also enable experimental flags on Chrome by typing 'chrome://flags' on the searchbar and search for WebXR. 
+
+* Navigate to http://bit.ly/ng-ar-demo.
+
+* Point your camera to the [Hiro image](assets/HIRO.jpg).
 
 ## Development server
 
