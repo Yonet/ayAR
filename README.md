@@ -10,11 +10,19 @@ http://bit.ly/ng-ar-demo
 
 * Navigate to http://bit.ly/ng-ar-demo.
 
-* Point your camera to the [Hiro image](assets/HIRO.jpg).
+* Point your camera to the [Hiro image](src/assets/HIRO.jpg).
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Using Custom Markers
+
+You can create your own markers by uploading an image to [marker generator](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html).
+
+You also need to save the generated marker file under the [assets folder](src/assets/). 
+
+In the [ArJsService file](src/app/arjs.service.ts), you need to point Camera Controls patternUrl to your custom file.
 
 ## Code scaffolding
 
