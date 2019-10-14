@@ -1,16 +1,26 @@
 # AyAR
 
-http://bit.ly/ng-ar-demo
+[AR.JS](https://github.com/jeromeetienne/AR.js) and [Angular](https://angular.io/) integration example to attach a model to a marker. 
+
+You can learn more about the Mixed Reality Development at the below links:
+
+* [Mixed Reality Documentation](https://docs.microsoft.com/en-us/windows/mixed-reality/?WT.mc_id=docs-github-ayyonet)
+* [Mixed Reality Resources](https://github.com/Yonet/MixedRealityResources)
+
+Live Demo: http://bit.ly/ng-ar-demo
 
 ## SetUp to view
 
-* Make sure your browser is WebXR capable. You can check which browsers support WebXR and WebVR at [CanIUse.com](https://caniuse.com/#search=webxr).
-
-* You can also enable experimental flags on Chrome by typing 'chrome://flags' on the searchbar and search for WebXR. 
+* Make sure your browser is up to date. You can check which browsers support WebXR and WebVR at [CanIUse.com](https://caniuse.com/#search=webxr).
 
 * Navigate to http://bit.ly/ng-ar-demo.
 
 * Point your camera to the [Hiro image](src/assets/HIRO.jpg).
+<img src="https://github.com/Yonet/ayAR/blob/master/src/assets/HIRO.jpg">
+
+* You should be seeing the below animation: 
+
+<img src="https://media.giphy.com/media/Q5vejjBEwoD8ulugbW/giphy.gif">
 
 ## Development server
 
