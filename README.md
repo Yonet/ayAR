@@ -4,7 +4,7 @@
 
 You can learn more about the Mixed Reality Development at the below links:
 
-* [Mixed Reality Documentation](https://docs.microsoft.com/en-us/windows/mixed-reality/?WT.mc_id=docs-github-ayyonet)
+* [Mixed Reality Documentation](https://docs.microsoft.com/windows/mixed-reality/?WT.mc_id=aiml-0000-ayyonet)
 * [Mixed Reality Resources](https://github.com/Yonet/MixedRealityResources)
 
 Live Demo: http://bit.ly/ng-ar-demo
