@@ -30,7 +30,7 @@
     "resonance-audio": "^1.0.0",
     "rxjs": "^6.3.3",
     "rxjs-compat": "^6.0.0-rc.0",
-    "three": "^0.109.0",
+    "three": "^0.137.0",
     "three.ar.js": "^0.1.8",
     "threex": "^1.0.0",
     "tslib": "^1.10.0",
